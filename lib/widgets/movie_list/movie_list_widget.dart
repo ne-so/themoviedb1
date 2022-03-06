@@ -19,11 +19,11 @@ class MovieListWidget extends StatelessWidget {
                   color: Colors.white,
                   border: Border.all(color: Colors.black.withOpacity(0.2)),
                   borderRadius: const BorderRadius.all(Radius.circular(10)),
-                  boxShadow: [
+                  boxShadow: [ 
                     BoxShadow(
                       color: Colors.black.withOpacity(0.1),
                       blurRadius: 8,
-                       offset: const Offset(0, 2), 
+                       offset: const Offset(0, 2),   
                     )
                   ],
                 ),
